@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="weather.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div weclass="main">
+        <div class="container">
+            <input  id="location" type="text" placeholder="Enter city name">
+            <button id="btn">
+                <span class="material-symbols-outlined">
+                   search
+                </span>
+            </button>
+            <div class="def">
+                <img src="https://cdn3d.iconscout.com/3d/premium/thumb/drizzle-weather-7096832-5753008.png">
+                <div class="temp"><span id="temp-value">25</span><span id="deg">&#176</span><span id="celsius">C</span></div>
+                <div class="abc">
+                    <div class="abcd">
+                        <span class="material-symbols-outlined" id="icon">
+                            humidity_percentage
+                        </span>
+                        <span id="humidity">Humidity</span>
+                    </div>
+                    <span id="weather-desc">Cloudy</span>
+                </div>
+                <div id="city">Hyderabad</div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="weather.js"></script>
+</html>
